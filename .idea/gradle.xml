@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/Module_6_Unit_Testing_JUnit_Mokito/sub_6.1-Creating_Modules_Packages_and_setting_Gradle" />
             <option value="$PROJECT_DIR$/Module_6_Unit_Testing_JUnit_Mokito/sub_6.2-TDD_SUT_First_Unit_Test_Task" />
             <option value="$PROJECT_DIR$/Module_6_Unit_Testing_JUnit_Mokito/sub_6.3-JUnit_First_Test_Adnotations_Example" />
+            <option value="$PROJECT_DIR$/Module_6_Unit_Testing_JUnit_Mokito/sub_6.4-JUnit_Tests_With_ForumUser" />
           </set>
         </option>
       </GradleProjectSettings>

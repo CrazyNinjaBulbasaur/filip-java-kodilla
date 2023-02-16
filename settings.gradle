@@ -7,4 +7,6 @@ include 'Module_6_Unit_Testing_JUnit_Mokito:sub_6.2-TDD_SUT_First_Unit_Test_Task
 findProject(':Module_6_Unit_Testing_JUnit_Mokito:sub_6.2-TDD_SUT_First_Unit_Test_Task')?.name = 'sub_6.2-TDD_SUT_First_Unit_Test_Task'
 include 'Module_6_Unit_Testing_JUnit_Mokito:sub_6.3-JUnit_First_Test_Adnotations_Example'
 findProject(':Module_6_Unit_Testing_JUnit_Mokito:sub_6.3-JUnit_First_Test_Adnotations_Example')?.name = 'sub_6.3-JUnit_First_Test_Adnotations_Example'
+include 'Module_6_Unit_Testing_JUnit_Mokito:sub_6.4-JUnit_Tests_With_ForumUser'
+findProject(':Module_6_Unit_Testing_JUnit_Mokito:sub_6.4-JUnit_Tests_With_ForumUser')?.name = 'sub_6.4-JUnit_Tests_With_ForumUser'
 
