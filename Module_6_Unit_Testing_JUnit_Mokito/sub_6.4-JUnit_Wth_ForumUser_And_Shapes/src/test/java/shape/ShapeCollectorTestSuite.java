@@ -37,11 +37,11 @@ public class ShapeCollectorTestSuite {
 
             //When
             sc.addFigure(new Square(15));
-            int expected = sc.getFigures().size();
+            int sizeOfListAfterAdding = sc.getFigures().size();
 //            System.out.println(size2);
 
             //Then
-            assertFalse(expected == size);
+            assertFalse(sizeOfListAfterAdding == size);
         }
     }
 
@@ -59,11 +59,11 @@ public class ShapeCollectorTestSuite {
 
             //When
             sc.removeFigure(new Square(15));
-            int expected = sc.getFigures().size();
+            int sizeOfListAfterRemoving = sc.getFigures().size();
 //            System.out.println(size2);
 
             //Then
-            assertFalse(expected == size);
+            assertFalse(sizeOfListAfterRemoving == size);
         }
     }
 
@@ -102,13 +102,13 @@ public class ShapeCollectorTestSuite {
             Shape figureAdded1 = new Circle(20);
             Shape figureAdded2 = new Square(20);
 
-            StringBuilder expectedResult = new StringBuilder();
-            expectedResult.append("Showing Figures stored in ShapeCollector:\n");
-            expectedResult.append(figureAdded1 +"\n");
-            expectedResult.append(figureAdded2 +"\n");
+            StringBuilder textForFigures = new StringBuilder();
+            textForFigures.append("Showing Figures stored in ShapeCollector:\n");
+            textForFigures.append(figureAdded1 +"\n");
+            textForFigures.append(figureAdded2 +"\n");
 
             //Then
-            assertEquals(expectedResult.toString(), sc.showFigures().toString());
+            assertEquals(textForFigures.toString(), sc.showFigures().toString());
         }
     }
 }

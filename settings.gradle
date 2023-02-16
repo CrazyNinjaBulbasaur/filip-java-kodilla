@@ -13,4 +13,6 @@ include 'Module_6_Unit_Testing_JUnit_Mokito:sub_6.4-JUnit_Wth_ForumUser_And_Shap
 findProject(':Module_6_Unit_Testing_JUnit_Mokito:sub_6.4-JUnit_Wth_ForumUser_And_Shapes')?.name = 'sub_6.4-JUnit_Wth_ForumUser_And_Shapes'
 include 'Module_6_Unit_Testing_JUnit_Mokito:sub_6.5-Mokito_AND_STUB'
 findProject(':Module_6_Unit_Testing_JUnit_Mokito:sub_6.5-Mokito_AND_STUB')?.name = 'sub_6.5-Mokito_AND_STUB'
+include 'Module_6_Unit_Testing_JUnit_Mokito:sub_6.6-JUnit_AND_Mokito'
+findProject(':Module_6_Unit_Testing_JUnit_Mokito:sub_6.6-JUnit_AND_Mokito')?.name = 'sub_6.6-JUnit_AND_Mokito'
 
