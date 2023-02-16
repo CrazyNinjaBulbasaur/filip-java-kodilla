@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.collection.CollectionTestSuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-02-16T10:50:38" hostname="UTUMNO" time="0.028">
+<testsuite name="com.kodilla.collection.CollectionTestSuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-02-16T13:04:29" hostname="UTUMNO" time="0.02">
   <properties/>
-  <testcase name="When list is empty, then exterminate() should return empty list" classname="com.kodilla.collection.CollectionTestSuite" time="0.025"/>
+  <testcase name="When list is empty, then exterminate() should return empty list" classname="com.kodilla.collection.CollectionTestSuite" time="0.017"/>
   <testcase name="When list is not empty, then exterminate() should return list of even numbers" classname="com.kodilla.collection.CollectionTestSuite" time="0.001"/>
   <system-out><![CDATA[Test Suite: begin
 Testing begins for: testOddNumbersExterminatorEmptyList

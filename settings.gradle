@@ -9,4 +9,8 @@ include 'Module_6_Unit_Testing_JUnit_Mokito:sub_6.3-JUnit_First_Test_Adnotations
 findProject(':Module_6_Unit_Testing_JUnit_Mokito:sub_6.3-JUnit_First_Test_Adnotations_Example')?.name = 'sub_6.3-JUnit_First_Test_Adnotations_Example'
 include 'Module_6_Unit_Testing_JUnit_Mokito:sub_6.4-JUnit_Tests_With_ForumUser'
 findProject(':Module_6_Unit_Testing_JUnit_Mokito:sub_6.4-JUnit_Tests_With_ForumUser')?.name = 'sub_6.4-JUnit_Tests_With_ForumUser'
+include 'Module_6_Unit_Testing_JUnit_Mokito:sub_6.4-JUnit_Wth_ForumUser_And_Shapes'
+findProject(':Module_6_Unit_Testing_JUnit_Mokito:sub_6.4-JUnit_Wth_ForumUser_And_Shapes')?.name = 'sub_6.4-JUnit_Wth_ForumUser_And_Shapes'
+include 'Module_6_Unit_Testing_JUnit_Mokito:sub_6.5-Mokito_AND_STUB'
+findProject(':Module_6_Unit_Testing_JUnit_Mokito:sub_6.5-Mokito_AND_STUB')?.name = 'sub_6.5-Mokito_AND_STUB'
 

@@ -14,6 +14,8 @@
             <option value="$PROJECT_DIR$/Module_6_Unit_Testing_JUnit_Mokito/sub_6.2-TDD_SUT_First_Unit_Test_Task" />
             <option value="$PROJECT_DIR$/Module_6_Unit_Testing_JUnit_Mokito/sub_6.3-JUnit_First_Test_Adnotations_Example" />
             <option value="$PROJECT_DIR$/Module_6_Unit_Testing_JUnit_Mokito/sub_6.4-JUnit_Tests_With_ForumUser" />
+            <option value="$PROJECT_DIR$/Module_6_Unit_Testing_JUnit_Mokito/sub_6.4-JUnit_Wth_ForumUser_And_Shapes" />
+            <option value="$PROJECT_DIR$/Module_6_Unit_Testing_JUnit_Mokito/sub_6.5-Mokito_AND_STUB" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.collection.OldTests_Amends_needed" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-02-16T13:04:29" hostname="UTUMNO" time="0.007">
+  <properties/>
+  <testcase name="When list is empty, then exterminate() should return empty list" classname="com.kodilla.collection.OldTests_Amends_needed" time="0.005"/>
+  <testcase name="When list is not empty, then exterminate() should return list of even numbers" classname="com.kodilla.collection.OldTests_Amends_needed" time="0.001"/>
+  <system-out><![CDATA[Test Suite: begin
+Testing begins for: testOddNumbersExterminatorEmptyList
+Test Case: end
+Testing begins for: testOddNumbersExterminatorNormalList
+Test Case: end
+Test Suite: end
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

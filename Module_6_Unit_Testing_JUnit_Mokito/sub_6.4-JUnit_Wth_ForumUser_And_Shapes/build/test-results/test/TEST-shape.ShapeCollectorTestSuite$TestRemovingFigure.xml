@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Tests for removing a figure - removeFigure(Shape shape)" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-16T13:50:56" hostname="UTUMNO" time="0.002">
+  <properties/>
+  <testcase name="Test will check if size of a list has been decremented after removing a new figure" classname="shape.ShapeCollectorTestSuite$TestRemovingFigure" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
