@@ -5,4 +5,6 @@ include 'Module_6_Unit_Testing_JUnit_Mokito:sub_6.1-Creating_Modules_Packages_an
 findProject(':Module_6_Unit_Testing_JUnit_Mokito:sub_6.1-Creating_Modules_Packages_and_setting_Gradle')?.name = 'sub_6.1-Creating_Modules_Packages_and_setting_Gradle'
 include 'Module_6_Unit_Testing_JUnit_Mokito:sub_6.2-TDD_SUT_First_Unit_Test_Task'
 findProject(':Module_6_Unit_Testing_JUnit_Mokito:sub_6.2-TDD_SUT_First_Unit_Test_Task')?.name = 'sub_6.2-TDD_SUT_First_Unit_Test_Task'
+include 'Module_6_Unit_Testing_JUnit_Mokito:sub_6.3-JUnit_First_Test_Adnotations_Example'
+findProject(':Module_6_Unit_Testing_JUnit_Mokito:sub_6.3-JUnit_First_Test_Adnotations_Example')?.name = 'sub_6.3-JUnit_First_Test_Adnotations_Example'
 
