@@ -1,0 +1,6 @@
+rootProject.name = 'kodilla-course'
+
+include 'Module_6_Unit_Testing_JUnit_Mokito'
+include 'Module_6_Unit_Testing_JUnit_Mokito:sub_6.1-Creating_Modules_Packages_and_setting_Gradle'
+findProject(':Module_6_Unit_Testing_JUnit_Mokito:sub_6.1-Creating_Modules_Packages_and_setting_Gradle')?.name = 'sub_6.1-Creating_Modules_Packages_and_setting_Gradle'
+
