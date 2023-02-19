@@ -23,4 +23,16 @@ public class BookLibrary {
         bookList = resultList;
         return bookList;
     }
+
+    public List<Book> listBooksInHandsOf(LibraryUser libraryUser){
+//        Code for testing
+
+//        List<Book> bookList = new ArrayList<>();
+//        bookList.add(new Book("Long Title", "Short Author", 2015));
+//
+//        return bookList;
+
+        return libraryDatabase.listBooksInHandsOf(libraryUser);
+
+    }
 }
