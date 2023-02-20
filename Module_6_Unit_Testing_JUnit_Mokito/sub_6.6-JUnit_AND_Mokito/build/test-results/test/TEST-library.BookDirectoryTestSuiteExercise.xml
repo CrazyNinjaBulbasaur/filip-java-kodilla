@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="library.BookDirectoryTestSuiteExercise" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-02-19T16:09:54" hostname="UTUMNO" time="0.013">
+  <properties/>
+  <testcase name="The test will check whether testListBooksInHandsOf() from BookLibrary classreturns List with a correct number of Books. In this test - 0" classname="library.BookDirectoryTestSuiteExercise" time="0.002"/>
+  <testcase name="The test will check whether testListBooksInHandsOf() from BookLibrary classreturns List with a correct number of Books. In this test - 1" classname="library.BookDirectoryTestSuiteExercise" time="0.004"/>
+  <testcase name="The test will check whether testListBooksInHandsOf() from BookLibrary classreturns List with a correct number of Books. In this test - 5" classname="library.BookDirectoryTestSuiteExercise" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

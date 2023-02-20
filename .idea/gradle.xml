@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -9,6 +10,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Module7" />
             <option value="$PROJECT_DIR$/Module_6_Unit_Testing_JUnit_Mokito" />
             <option value="$PROJECT_DIR$/Module_6_Unit_Testing_JUnit_Mokito/sub_6.1-Creating_Modules_Packages_and_setting_Gradle" />
             <option value="$PROJECT_DIR$/Module_6_Unit_Testing_JUnit_Mokito/sub_6.2-TDD_SUT_First_Unit_Test_Task" />
@@ -17,6 +19,9 @@
             <option value="$PROJECT_DIR$/Module_6_Unit_Testing_JUnit_Mokito/sub_6.4-JUnit_Wth_ForumUser_And_Shapes" />
             <option value="$PROJECT_DIR$/Module_6_Unit_Testing_JUnit_Mokito/sub_6.5-Mokito_AND_STUB" />
             <option value="$PROJECT_DIR$/Module_6_Unit_Testing_JUnit_Mokito/sub_6.6-JUnit_AND_Mokito" />
+            <option value="$PROJECT_DIR$/Module_7" />
+            <option value="$PROJECT_DIR$/Module_7_Functional_Programming_Lambdas_Streams" />
+            <option value="$PROJECT_DIR$/Module_7_Functional_Programming_Lambdas_Streams/sub_7.1-Lambdas_Expressions" />
           </set>
         </option>
       </GradleProjectSettings>

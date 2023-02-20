@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="library.BookDirectoryTestSuite" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-02-19T15:38:37" hostname="UTUMNO" time="1.675">
+<testsuite name="library.BookDirectoryTestSuite" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-02-19T16:09:53" hostname="UTUMNO" time="1.359">
   <properties/>
-  <testcase name="Ten test z kolei ma za zadanie sprawdzenie, czy zwracana lista ksiÄ…Å¼ek jest pusta w sytuacji, gdy wyszukiwany fragment tytuÅ‚u jest krÃ³tszy niÅ¼ trzy znaki." classname="library.BookDirectoryTestSuite" time="1.595"/>
-  <testcase name="ten test posÅ‚uÅ¼y do sprawdzenia, czy metoda listBooksWithCondition(String titleFragment) zachowuje siÄ™ poprawnie, gdy liczba tytuÅ‚Ã³w pasujÄ…cych do wzorca jest wiÄ™ksza niÅ¼ 20. W tej sytuacji zwracana powinna byÄ‡ pusta lista." classname="library.BookDirectoryTestSuite" time="0.055"/>
+  <testcase name="Ten test z kolei ma za zadanie sprawdzenie, czy zwracana lista ksiÄ…Å¼ek jest pusta w sytuacji, gdy wyszukiwany fragment tytuÅ‚u jest krÃ³tszy niÅ¼ trzy znaki." classname="library.BookDirectoryTestSuite" time="1.304"/>
+  <testcase name="ten test posÅ‚uÅ¼y do sprawdzenia, czy metoda listBooksWithCondition(String titleFragment) zachowuje siÄ™ poprawnie, gdy liczba tytuÅ‚Ã³w pasujÄ…cych do wzorca jest wiÄ™ksza niÅ¼ 20. W tej sytuacji zwracana powinna byÄ‡ pusta lista." classname="library.BookDirectoryTestSuite" time="0.031"/>
   <testcase name="ten test sprawdzi, czy lista ksiÄ…Å¼ek speÅ‚niajÄ…cych warunek wyszukiwania jest poprawnie zwracana." classname="library.BookDirectoryTestSuite" time="0.004"/>
   <testcase name="The test will check whether testListBooksInHandsOf() from BookLibrary classreturns List with a correct number of Books. In this test - 0" classname="library.BookDirectoryTestSuite" time="0.004"/>
   <testcase name="The test will check whether testListBooksInHandsOf() from BookLibrary classreturns List with a correct number of Books. In this test - 1" classname="library.BookDirectoryTestSuite" time="0.004"/>
