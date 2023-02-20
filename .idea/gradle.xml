@@ -21,7 +21,9 @@
             <option value="$PROJECT_DIR$/Module_6_Unit_Testing_JUnit_Mokito/sub_6.6-JUnit_AND_Mokito" />
             <option value="$PROJECT_DIR$/Module_7" />
             <option value="$PROJECT_DIR$/Module_7_Functional_Programming_Lambdas_Streams" />
+            <option value="$PROJECT_DIR$/Module_7_Functional_Programming_Lambdas_Streams/sub_7.1-Intro_To_Streams" />
             <option value="$PROJECT_DIR$/Module_7_Functional_Programming_Lambdas_Streams/sub_7.1-Lambdas_Expressions" />
+            <option value="$PROJECT_DIR$/Module_7_Functional_Programming_Lambdas_Streams/sub_7.2-Intro_To_Streams" />
           </set>
         </option>
       </GradleProjectSettings>

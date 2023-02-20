@@ -20,4 +20,8 @@ include 'Module7'
 include 'Module_7_Functional_Programming_Lambdas_Streams'
 include 'Module_7_Functional_Programming_Lambdas_Streams:sub_7.1-Lambdas_Expressions'
 findProject(':Module_7_Functional_Programming_Lambdas_Streams:sub_7.1-Lambdas_Expressions')?.name = 'sub_7.1-Lambdas_Expressions'
+include 'Module_7_Functional_Programming_Lambdas_Streams:sub_7.1-Intro_To_Streams'
+findProject(':Module_7_Functional_Programming_Lambdas_Streams:sub_7.1-Intro_To_Streams')?.name = 'sub_7.1-Intro_To_Streams'
+include 'Module_7_Functional_Programming_Lambdas_Streams:sub_7.2-Intro_To_Streams'
+findProject(':Module_7_Functional_Programming_Lambdas_Streams:sub_7.2-Intro_To_Streams')?.name = 'sub_7.2-Intro_To_Streams'
 
