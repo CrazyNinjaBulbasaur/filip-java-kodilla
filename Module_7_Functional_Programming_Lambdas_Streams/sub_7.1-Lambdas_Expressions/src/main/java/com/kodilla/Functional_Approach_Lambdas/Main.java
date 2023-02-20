@@ -10,12 +10,13 @@ public class Main {
      */
 
     /**
-     * Wyrażenia lambda z chwilą przekazania do metody oczekującej argumentu
-     * typu interfejsowego stają się anonimowymi obiektami implementującymi ten interfejs.
+     * Wyrażenia lambda z chwilą przekazania do metody oczekującej argumentu typu interfejsowego
+     * stają się anonimowymi obiektami implementującymi ten interfejs.
      * Metoda, do której wyrażenie lambda zostało przekazane, wywołuje na otrzymanym obiekcie tę metodę.
      *
      * Zawsze gdy chcemy przekazywać do metody wyrażenia lambda,
      * to metoda ta musi oczekiwać argumentu typu interfejsowego.
+     *
      * Interfejs musi natomiast mieć TYLKO jedną metodę.
      * Implementacją tej właśnie metody stanie się otrzymane wyrażenie lambda.
      *
@@ -28,9 +29,15 @@ public class Main {
          */
         Processor processor = new Processor();
 
+        /**
+         * Właściwym typem jest typ interfejsu wyrażenia lamby przypisanego do zmiennej jest typ jaki zastosowalibyśmy do zmuszenia klasy
+         * do zaimplementowania takiej metody, czyli w tym przypadku typ interfejsu Executor:
+         */
         Executor codeToExecute = () -> System.out.println("Functional Approach. This is an example text.");
 
         processor.execute(codeToExecute);
+
+
         System.out.println();
 
 

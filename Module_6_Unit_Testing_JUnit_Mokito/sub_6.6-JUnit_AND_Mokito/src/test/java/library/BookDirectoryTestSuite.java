@@ -72,12 +72,14 @@ public class BookDirectoryTestSuite {
 //        BookLibrary bookLibrary = new BookLibrary(libraryDatabaseMock);                  // [1]
         List<Book> resultListOf0Books = new ArrayList<>();                           // [2]
         List<Book> resultListOf15Books = generateListOfNBooks(15);                       // [3]
-        List<Book> resultListOf40Books = generateListOfNBooks(40);
-        // [4]
+        List<Book> resultListOf40Books = generateListOfNBooks(40);              // [4]
+
         when(libraryDatabaseMock.listBooksWithCondition(anyString()))                    // [5]
                 .thenReturn(resultListOf15Books);                                             // [6]
+
         when(libraryDatabaseMock.listBooksWithCondition("ZeroBooks"))                    // [7]
                 .thenReturn(resultListOf0Books);                                              // [8]
+
         when(libraryDatabaseMock.listBooksWithCondition("FortyBooks"))                   // [9]
                 .thenReturn(resultListOf40Books);                                             // [10]
 
