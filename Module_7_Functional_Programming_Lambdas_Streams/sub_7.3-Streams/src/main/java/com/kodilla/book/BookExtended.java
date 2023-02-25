@@ -1,6 +1,6 @@
 package com.kodilla.book;
 
-public class BookExtended {
+public final class BookExtended {
 
     private final String author;
     private final String title;

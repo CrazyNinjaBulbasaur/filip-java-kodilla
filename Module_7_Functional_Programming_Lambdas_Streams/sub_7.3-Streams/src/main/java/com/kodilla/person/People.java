@@ -20,5 +20,15 @@ public final class People {
         theList.add("Martin Valenzuela");                  // [16]
 
         return new ArrayList<>(theList);                   // [17]
+
+        /**
+         * W linii [17] zwracamy nie listę przechowywaną w zmiennej theList,
+         * lecz tworzymy jej kopię (czyli tworzymy nową listę przy pomocy konstruktora kopiującego) –
+         * jest to rozwiązanie zapobiegające mutowaniu obiektów.
+         *
+         * Nawet jeżeli "konsument" wyników działania metody getList() zmieni coś w otrzymanej kolekcji,
+         * nie spowoduje to zmiany obiektów wewnątrz klasy People,
+         * ponieważ operacja modyfikacji zostanie wykonana na kopii obiektu theList, a nie na samym obiekcie.
+         */
     }
 }

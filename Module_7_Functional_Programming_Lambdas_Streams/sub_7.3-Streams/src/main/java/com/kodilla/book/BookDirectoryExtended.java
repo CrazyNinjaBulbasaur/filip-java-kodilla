@@ -3,7 +3,7 @@ package com.kodilla.book;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BookDirectoryExtended {
+public final class BookDirectoryExtended {
 
     private final List<BookExtended> theBookList = new ArrayList<>();
 

@@ -108,6 +108,7 @@ public class ForumUserTestSuite {
         //      user7:  user1: - should be skipped ("this" in context of user1)
         //      user3: "Key West"
         //      user10: user1: - should be skipped ("this" in context of user1)
+        System.out.println(user1.getLocationsOfFriendsOfFriends());
         assertEquals(3, user1.getLocationsOfFriendsOfFriends().size());
         assertTrue(user1.getLocationsOfFriendsOfFriends().contains("Key West"));
         assertTrue(user1.getLocationsOfFriendsOfFriends().contains("Washington"));

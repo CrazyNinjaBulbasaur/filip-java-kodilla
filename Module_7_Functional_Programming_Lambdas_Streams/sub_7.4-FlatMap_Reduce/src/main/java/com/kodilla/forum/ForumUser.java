@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-public class ForumUser {
+public final class ForumUser {
 
     private final String username;
     private final String realName;
@@ -42,7 +42,9 @@ public class ForumUser {
                 .collect(Collectors.toSet());
     }
 
+    /**
 
+     */
     public Set<String> getLocationsOfFriendsOfFriends() {
         return friends.stream()                               // [1]
                 .flatMap(user -> user.getFriends().stream())       // [2]

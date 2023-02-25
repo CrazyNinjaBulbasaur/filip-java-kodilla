@@ -4,11 +4,13 @@ import com.kodilla.book.BookDirectoryExtended;
 import com.kodilla.book.BookExtended;
 
 import java.util.Map;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 public class ToMapCollector {
 
     public static void main(String[] args) {
+
         BookDirectoryExtended theBookDirectory = new BookDirectoryExtended();
 
         Map<String, BookExtended> theResultMapOfBooks = theBookDirectory.getList().stream()
@@ -22,7 +24,9 @@ public class ToMapCollector {
                 .forEach(System.out::println);
 
         /**
-         * W linii [1] używamy kolektora Collectors.toMap(Function keyMapper, Function valueMapper),
+         * W linii [1] używamy kolektora
+         * Collectors.toMap(Function keyMapper, Function valueMapper),
+         *
          * który za pomocą funkcji (wyrażenia lambda lub referencji do metody) keyMapper oblicza klucz (key) pary w mapie.
          *
          * Z kolei valueMapper jest analogiczną funkcją (wyrażeniem lambda lub referencją do metody)
@@ -30,8 +34,9 @@ public class ToMapCollector {
          *
          * W naszym kodzie:
          *  -klucze par Entry w mapie obliczane są funkcją, która wskazana jest przez referencję do metody Book::getSignature,
-         *  -wartości par Entry w mapie obliczane są funkcją zapisaną przy pomocy
-         *  wyrażenia lambda book -> book, czyli po prostu są obiektami przepisanymi ze strumienia.
+         *  -wartości par Entry w mapie obliczane są funkcją zapisaną przy pomocy wyrażenia lambda
+         *              bookExtended -> bookExtended
+         *  , czyli po prostu są obiektami przepisanymi ze strumienia.
          *
          * W linii [2] sprawdzamy rozmiar nowo powstałej mapy.
          *
