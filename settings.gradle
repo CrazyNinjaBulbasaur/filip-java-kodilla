@@ -30,4 +30,6 @@ include 'Module_7_Functional_Programming_Lambdas_Streams:sub_7.4-FlatMap_Reduce'
 findProject(':Module_7_Functional_Programming_Lambdas_Streams:sub_7.4-FlatMap_Reduce')?.name = 'sub_7.4-FlatMap_Reduce'
 include 'Module_7_Functional_Programming_Lambdas_Streams:sub_7.5-IntStream'
 findProject(':Module_7_Functional_Programming_Lambdas_Streams:sub_7.5-IntStream')?.name = 'sub_7.5-IntStream'
+include 'Module_7_Functional_Programming_Lambdas_Streams:sub_7.6-Streams_On_Collections'
+findProject(':Module_7_Functional_Programming_Lambdas_Streams:sub_7.6-Streams_On_Collections')?.name = 'sub_7.6-Streams_On_Collections'
 

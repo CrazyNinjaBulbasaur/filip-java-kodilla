@@ -27,6 +27,7 @@
             <option value="$PROJECT_DIR$/Module_7_Functional_Programming_Lambdas_Streams/sub_7.3-Streams" />
             <option value="$PROJECT_DIR$/Module_7_Functional_Programming_Lambdas_Streams/sub_7.4-FlatMap_Reduce" />
             <option value="$PROJECT_DIR$/Module_7_Functional_Programming_Lambdas_Streams/sub_7.5-IntStream" />
+            <option value="$PROJECT_DIR$/Module_7_Functional_Programming_Lambdas_Streams/sub_7.6-Streams_On_Collections" />
           </set>
         </option>
       </GradleProjectSettings>
