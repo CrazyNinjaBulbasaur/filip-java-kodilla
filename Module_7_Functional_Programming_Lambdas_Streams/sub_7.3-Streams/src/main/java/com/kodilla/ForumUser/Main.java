@@ -14,7 +14,7 @@ public class Main {
         Map<Integer, ForumUser> theResultMapOfForumUsers = forum.getTheForumUserList()
                 .stream()
                 .filter(forumUser -> forumUser.getSex() == 'M')
-                .filter(forumUser -> forumUser.getDateOfBirth().until(LocalDate.now(), ChronoUnit.YEARS) > 20)
+                .filter(forumUser -> forumUser.getDateOfBirth().until(LocalDate.now(), ChronoUnit.YEARS) >= 20)
                 .filter(forumUser -> forumUser.getNumberOfPosts() >= 1)
                 .collect(Collectors.toMap(ForumUser::getUserID , forumUser -> forumUser));
 
