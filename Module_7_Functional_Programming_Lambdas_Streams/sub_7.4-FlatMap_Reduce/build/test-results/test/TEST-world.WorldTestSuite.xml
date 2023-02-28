@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="world.WorldTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-28T05:24:28" hostname="UTUMNO" time="0.031">
+  <properties/>
+  <testcase name="testGetPeopleQuantity()" classname="world.WorldTestSuite" time="0.031"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
