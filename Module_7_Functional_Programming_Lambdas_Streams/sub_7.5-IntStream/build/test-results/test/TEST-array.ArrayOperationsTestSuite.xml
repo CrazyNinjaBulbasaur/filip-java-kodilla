@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="array.ArrayOperationsTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-28T06:20:53" hostname="UTUMNO" time="0.04">
+  <properties/>
+  <testcase name="testGetAverage()" classname="array.ArrayOperationsTestSuite" time="0.04"/>
+  <system-out><![CDATA[Size of an array: 20
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
