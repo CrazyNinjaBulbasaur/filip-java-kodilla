@@ -28,6 +28,9 @@
             <option value="$PROJECT_DIR$/Module_7_Functional_Programming_Lambdas_Streams/sub_7.4-FlatMap_Reduce" />
             <option value="$PROJECT_DIR$/Module_7_Functional_Programming_Lambdas_Streams/sub_7.5-IntStream" />
             <option value="$PROJECT_DIR$/Module_7_Functional_Programming_Lambdas_Streams/sub_7.6-Streams_On_Collections" />
+            <option value="$PROJECT_DIR$/Module_8_Exception_Handling" />
+            <option value="$PROJECT_DIR$/Module_8_Exception_Handling/sub_8.1-IntroToExceptions_FileReader" />
+            <option value="$PROJECT_DIR$/Module_8_Exception_Handling/sub_8.2-Try-Catch_Finally" />
           </set>
         </option>
       </GradleProjectSettings>
