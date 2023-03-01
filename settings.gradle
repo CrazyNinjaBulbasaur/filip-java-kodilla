@@ -39,4 +39,6 @@ include 'Module_8_Exception_Handling:sub_8.2-Try-Catch_Finally'
 findProject(':Module_8_Exception_Handling:sub_8.2-Try-Catch_Finally')?.name = 'sub_8.2-Try-Catch_Finally'
 include 'Module_8_Exception_Handling:sub_8.3-Throw_and_Throws'
 findProject(':Module_8_Exception_Handling:sub_8.3-Throw_and_Throws')?.name = 'sub_8.3-Throw_and_Throws'
+include 'Module_8_Exception_Handling:sub_8.4-Handling_different_types_of_Exceptions'
+findProject(':Module_8_Exception_Handling:sub_8.4-Handling_different_types_of_Exceptions')?.name = 'sub_8.4-Handling_different_types_of_Exceptions'
 

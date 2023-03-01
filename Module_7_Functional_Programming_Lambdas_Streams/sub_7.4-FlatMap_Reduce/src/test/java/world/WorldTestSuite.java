@@ -24,10 +24,11 @@ public class WorldTestSuite {
         World world = prepareTestData();
 
         //When
+        BigDecimal numberOfPeople = world.getPeopleQuantity();
 
         //Then
         BigDecimal expectedSand = new BigDecimal("488");
-        assertEquals(expectedSand, world.getPeopleQuantity());
+        assertEquals(expectedSand, numberOfPeople);
     }
 
     private World prepareTestData(){
