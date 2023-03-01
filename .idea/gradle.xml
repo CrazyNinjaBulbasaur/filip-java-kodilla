@@ -31,6 +31,7 @@
             <option value="$PROJECT_DIR$/Module_8_Exception_Handling" />
             <option value="$PROJECT_DIR$/Module_8_Exception_Handling/sub_8.1-IntroToExceptions_FileReader" />
             <option value="$PROJECT_DIR$/Module_8_Exception_Handling/sub_8.2-Try-Catch_Finally" />
+            <option value="$PROJECT_DIR$/Module_8_Exception_Handling/sub_8.3-Throw_and_Throws" />
           </set>
         </option>
       </GradleProjectSettings>

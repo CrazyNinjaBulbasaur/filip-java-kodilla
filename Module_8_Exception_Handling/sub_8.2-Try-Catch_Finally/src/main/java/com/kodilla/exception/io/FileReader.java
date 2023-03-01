@@ -86,7 +86,6 @@ public class FileReader {
         } catch (IOException e) {
             System.out.println("Oh no! Something went wrong! Error:" + e);
         }
-
     }
 
     public void finallyBlockNoError(){
@@ -114,6 +113,5 @@ public class FileReader {
         } finally {
             System.out.println("I am gonna be here... always!");
         }
-
     }
 }
